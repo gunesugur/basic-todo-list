@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#2E3B3E;
+    font-family: sans-serif;
+}
+#container{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+#title{
+    text-align: center !important;
+    font-size:50px;
+    color:#FD6378;
+}
+#inputText{
+    width: 300px;
+    height: 46px;
+    outline:none;
+    font-size: 20px;
+    border:2px solid orange;
+    border-radius: 10px;
+    color: #6B778D;
+}
+#addToDo{
+    color: #1E5128;
+    background-color:#6DF1CC;
+}
+#clearToDo{
+    color: #7D1935;
+    background-color:#FF847C;
+}
+#addToDo, #clearToDo{
+    /* color:#FD6378; */
+    height: 54px;
+    font-size: 20px;
+    outline:none;
+    border:2px solid orange;
+    border-radius: 10px;
+    cursor: pointer;
+    /* font-weight: bolder; */
+}
+#addToDo:active{
+    color: #6DF1CC;
+    background-color:#1E5128;
+}
+#clearToDo:active{
+    color: #FF847C;
+    background-color:#7D1935;
+}
+.paragraph-styling{
+    margin: 0px;
+    cursor: pointer;
+    font-size: 35px;
+    color: #FD6378;
+    text-transform: capitalize;
+}
+.to-dos{
+    margin-top:20px;
+}
+.strk-out-text{
+    text-decoration:line-through;
+}
